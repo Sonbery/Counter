@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+<title>Contador</title>
+
+<style>
+
+  .nume{
+height: 100%;
+width: 100%;
+border: 1px solid black;
+
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div onclick="cont()">
+
+<h1 class="nume" id="ro">Alo</h1>
+
+</div>
+
+<script>
+
+let conter=0;
+
+function cont(){
+
+conter ++;
+
+document.getElementById('ro').innerText=""+ conter;
+}
+
+</script>
+
+</body>
+
+</html>
